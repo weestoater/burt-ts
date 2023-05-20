@@ -6,7 +6,7 @@ export default function About() {
     <>
       <div className="row">
         <div className="col-sm-6">
-          <h1 className="visually-hidden">About</h1>
+          <h1>About</h1>
           <AboutContent />
         </div>
         <div className="col-sm-6"></div>
