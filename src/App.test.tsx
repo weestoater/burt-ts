@@ -2,8 +2,8 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders a header welcome to burtware.com', () => {
+test('renders a header link to burtware.com', () => {
   render(<App />);
-  const headerText = screen.getByText(/welcome to burtware.com/i);
+  const headerText = screen.getByText(/burtware.com/i);
   expect(headerText).toBeInTheDocument();
 })
