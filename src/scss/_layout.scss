@@ -1,0 +1,39 @@
+body {
+    padding: 1rem 2rem;
+    text-align: center;
+    background: whitesmoke;
+}
+header {
+    display: grid;
+    grid-template-columns: 75px 1fr 6fr;
+    grid-template-rows: 1;
+    gap: 1rem;
+    text-align: left;
+    margin-bottom: 2rem;
+
+    div, nav {border: 1px dashed #ddd; }
+
+    .site-nav {
+        ul, li {
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+        }
+        a {
+            display: block;
+            padding: .5rem 1rem;
+        }
+    }
+}
+
+main {
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 0 .25rem .75rem #ccc;
+    border-radius: .5rem;
+    width: 80%;
+    max-width: 1024px;
+    background: white;
+    color: #4b4b4b;
+}
