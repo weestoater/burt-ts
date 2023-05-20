@@ -11,17 +11,33 @@ header {
     text-align: left;
     margin-bottom: 2rem;
 
-    div, nav {border: 1px dashed #ddd; }
-
+    .logo { 
+        height: 3rem;
+        width: 3rem;
+        img {
+            max-width: 100%;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 .25rem .75rem #ccc;
+        }
+    }
+    .site-name {
+        line-height: 3rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
     .site-nav {
+        text-align: right;
         ul, li {
                 display: inline-block;
                 margin: 0;
                 padding: 0;
+                line-height: 3rem;
+                font-size: 1rem;
         }
         a {
             display: block;
-            padding: .5rem 1rem;
+            padding: 0 .5rem;
         }
     }
 }
