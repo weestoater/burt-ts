@@ -10,9 +10,40 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+:focus-visible {
+  outline: 2px solid #bada55;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+.navbar { 
+  max-height: 2.5rem;
+
+  a {
+    color: #444;
+    text-decoration: none;
+    &:hover,
+      &:focus {
+        color: #f90;
+    }
+  }
+  .navbar-brand {
+      .logo {
+        margin: 1.1rem 1rem 0 .5rem;
+        height: 4rem;
+        width: 4rem;
+        border: .25rem solid white;
+        border-radius: 50%;
+        box-shadow: 0 0 .5rem #444;
+      }
+  
+      a {
+        margin-right: 4rem;
+      }
+  }
+}
