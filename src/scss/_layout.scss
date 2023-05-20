@@ -3,6 +3,7 @@ body {
     text-align: center;
     background: whitesmoke;
 }
+
 header {
     display: grid;
     grid-template-columns: 75px 1fr 6fr;
@@ -32,24 +33,42 @@ header {
                 display: inline-block;
                 margin: 0;
                 padding: 0;
-                line-height: 3rem;
+                line-height: 2.2rem;
                 font-size: 1rem;
         }
         a {
             display: block;
-            padding: 0 .5rem;
+            padding: 0 1rem;
+            margin-left: .1rem;
+            text-decoration: none;
+            color: black;
+            text-shadow: 0 1px 1px white;
+            border-radius: 1.1rem;
+
+            &:hover, &:focus {
+                background: white;
+            }
         }
     }
 }
 
 main {
-    padding: 1rem;
     margin: 0 auto;
     text-align: left;
-    box-shadow: 0 .25rem .75rem #ccc;
-    border-radius: .5rem;
     width: 80%;
     max-width: 1280px;
-    background: white;
-    color: #4b4b4b;
+    
+    .card {
+        color: #4b4b4b;
+        background: white;        
+        box-shadow: 0 .25rem .75rem #ccc;
+        border-radius: .5rem;
+        padding: 1rem;
+    }
+
+    .home {
+        .hero {
+            border: 1px dashed #ddd;
+        }
+    }
 }
