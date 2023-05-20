@@ -1,9 +1,10 @@
 import React from 'react';
+import logo from '../assets/img/burt.png';
 
 export const Header = () => {
     return (
         <header>
-            <div className='logo'><a href="/">logo</a></div>
+            <div className='logo'><a href="/"><img src={logo} alt="burt logo" /></a></div>
             <div className="site-name">burtware.com</div>
             <nav className="site-nav">
                 <ul>
