@@ -5,11 +5,7 @@ interface HeaderProps {
 
 export default function Header(props: HeaderProps) {
   return (
-    <nav
-      className="navbar navbar-expand-lg bg-light navbar-light"
-      data-bs-theme="light"
-      id="top"
-    >
+    <nav className="navbar navbar-expand-lg bg-light navbar-light">
       <div className="navbar-brand">
         <img src="assets/burt.png" className="logo" alt="burt logo" />
         <a href="/">{props.site}</a>
@@ -45,7 +41,7 @@ export default function Header(props: HeaderProps) {
               Agile
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="/football">
               Football
             </a>
@@ -54,7 +50,7 @@ export default function Header(props: HeaderProps) {
             <a className="nav-link" href="/react">
               React
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
