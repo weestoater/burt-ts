@@ -23,23 +23,35 @@ export default function Football() {
                       <p>
                         Played: <b>{game.opposition}</b>
                       </p>
-                      <p>
-                        {game.cards !== undefined && game.cards !== null && (
-                          <>
-                            <small>Cards</small>:
-                            <ul>
-                              {game.cards.map((card: any) => {
-                                return (
-                                  <li key={card.mins}>
-                                    {card.player} - {card.card} @ {card.mins}
-                                    mins
-                                  </li>
-                                );
-                              })}
-                            </ul>
-                          </>
-                        )}
-                      </p>
+                      {game.cards !== undefined && game.cards !== null && (
+                        <>
+                          <small>Cards:</small>
+                          <ul>
+                            {game.cards.map((card: any, index: number) => {
+                              return (
+                                <li key={index}>
+                                  {card.player} - {card.card} @ {card.mins}
+                                  mins
+                                </li>
+                              );
+                            })}
+                          </ul>
+                        </>
+                      )}
+                      {game.goals !== undefined && game.goals !== null && (
+                        <>
+                          <small>Goals:</small>
+                          <ul>
+                            {game.goals.map((goal: any, index: number) => {
+                              return (
+                                <li key={index}>
+                                  {goal.player} @ {goal.mins} mins
+                                </li>
+                              );
+                            })}
+                          </ul>
+                        </>
+                      )}
                     </div>
                   </div>
                 );
