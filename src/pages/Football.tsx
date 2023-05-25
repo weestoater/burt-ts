@@ -1,6 +1,8 @@
 import React from "react";
 import seasons from "../data/mfc-matches.json";
 
+import WinLoseDraw from "../components/football/WinLoseDraw";
+
 export default function Football() {
   return (
     <>
@@ -16,8 +18,25 @@ export default function Football() {
                   <div className="card mb-3" key={game.date}>
                     <div className="card-header text-center">
                       <small className="float-start">{game.date}</small>
-                      <b>{game.scored}</b> - {game.conceded}
-                      <span className="float-end">{game.venue}</span>
+                      <span className="scores">
+                        {game.venue === "Home" ? (
+                          <>
+                            <b>{game.scored}</b> - {game.conceded}
+                          </>
+                        ) : (
+                          <>
+                            {game.conceded} - <b>{game.scored}</b>
+                          </>
+                        )}
+                      </span>
+                      <span className="float-end">
+                        {game.venue}
+                        <br />
+                        <WinLoseDraw
+                          scored={game.scored}
+                          conceded={game.conceded}
+                        />
+                      </span>
                     </div>
                     <div className="card-body">
                       <p>
@@ -39,7 +58,7 @@ export default function Football() {
                       {game.cards !== undefined && game.cards !== null && (
                         <>
                           <small>Cards:</small>
-                          <ul>
+                          <ul className="no-bullets">
                             {game.cards.map((card: any, index: number) => {
                               return (
                                 <li key={index}>
@@ -54,7 +73,7 @@ export default function Football() {
                       {game.goals !== undefined && game.goals !== null && (
                         <>
                           <small>Goals:</small>
-                          <ul>
+                          <ul className="no-bullets">
                             {game.goals.map((goal: any, index: number) => {
                               return (
                                 <li key={index}>
