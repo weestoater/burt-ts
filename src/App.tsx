@@ -8,7 +8,6 @@ import About from "./pages/About";
 import Agile from "./pages/Agile";
 import MobRules from "./pages/agile/MobRules";
 import { LessonsLearned } from "./pages/agile/LessonsLearned";
-import Biking from "./pages/Biking";
 import Football from "./pages/Football";
 import ReactPage from "./pages/React";
 
@@ -25,7 +24,6 @@ function App() {
             <Route path="/agile" element={<Agile />} />
             <Route path="/mobrules" element={<MobRules />} />
             <Route path="/lessonslearned" element={<LessonsLearned />} />
-            <Route path="/biking" element={<Biking />} />
             <Route path="/football" element={<Football />} />
             <Route path="/react" element={<ReactPage />} />
           </Routes>
