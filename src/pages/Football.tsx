@@ -22,6 +22,19 @@ export default function Football() {
                     <div className="card-body">
                       <p>
                         Played: <b>{game.opposition}</b>
+                        {game.league === "" ||
+                        game.league === null ||
+                        game.league === undefined ? (
+                          <span>
+                            {" "}
+                            in the <b>SPFL</b>
+                          </span>
+                        ) : (
+                          <span>
+                            {" "}
+                            in the <b> {game.league}</b>
+                          </span>
+                        )}
                       </p>
                       {game.cards !== undefined && game.cards !== null && (
                         <>
@@ -30,8 +43,8 @@ export default function Football() {
                             {game.cards.map((card: any, index: number) => {
                               return (
                                 <li key={index}>
-                                  {card.player} - {card.card} @ {card.mins}
-                                  mins
+                                  <div className={`cards ${card.card}`}></div>{" "}
+                                  {card.mins}mins' &middot; {card.player}
                                 </li>
                               );
                             })}
