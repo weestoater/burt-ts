@@ -41,11 +41,12 @@ export default function Header(props: HeaderProps) {
               Agile
             </a>
           </li>
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <a className="nav-link" href="/football">
               Football
             </a>
           </li>
+          {/* 
           <li className="nav-item">
             <a className="nav-link" href="/react">
               React
