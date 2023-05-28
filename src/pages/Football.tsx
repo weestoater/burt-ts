@@ -2,6 +2,10 @@ import React from "react";
 import seasons from "../data/mfc-matches.json";
 
 import WinLoseDraw from "../components/football/WinLoseDraw";
+import ShowVideoLink from "../components/football/ShowVideoLInk";
+import ShowMatchNotes from "../components/football/ShowMatchNotes";
+import ShowCards from "../components/football/ShowCards";
+import ShowGoals from "../components/football/ShowGoals";
 
 export default function Football() {
   return (
@@ -56,33 +60,16 @@ export default function Football() {
                         )}
                       </p>
                       {game.cards !== undefined && game.cards !== null && (
-                        <>
-                          <small>Cards:</small>
-                          <ul className="no-bullets">
-                            {game.cards.map((card: any, index: number) => {
-                              return (
-                                <li key={index}>
-                                  <div className={`cards ${card.card}`}></div>{" "}
-                                  {card.mins}mins' &middot; {card.player}
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </>
+                        <ShowCards cards={game.cards} />
                       )}
                       {game.goals !== undefined && game.goals !== null && (
-                        <>
-                          <small>Goals:</small>
-                          <ul className="no-bullets">
-                            {game.goals.map((goal: any, index: number) => {
-                              return (
-                                <li key={index}>
-                                  {goal.player} @ {goal.mins} mins
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </>
+                        <ShowGoals goals={game.goals} />
+                      )}
+                      {game.video !== undefined && game.video !== null && (
+                        <ShowVideoLink video={game.video} />
+                      )}
+                      {game.notes !== undefined && game.notes !== null && (
+                        <ShowMatchNotes notes={game.notes} />
                       )}
                     </div>
                   </div>
