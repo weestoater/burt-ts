@@ -3,6 +3,40 @@
         "season": "2022-23",
         "details": [  
             {
+                "scored": 3,
+                "conceded": 2,
+                "date": "28/05/23",
+                "opposition": "Dundee United",
+                "venue": "Home",
+                "video": null,
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Shane Blaney",
+                        "card": "yellow",
+                        "mins": "56"
+                    }, {
+                        "player": "Lennon Miller",
+                        "card": "yellow",
+                        "mins": "52"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Max Johnston",
+                        "mins": "82"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "71"
+                    },
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "5"
+                    }
+                ],
+                "notes": "KVV 11th game in a row on the score sheet. Good final match of the season, despite losing the way after the first goal and equaliser."
+            },{
                 "scored": 1,
                 "conceded": 1,
                 "date": "24/05/23",
