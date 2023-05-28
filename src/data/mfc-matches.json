@@ -3,6 +3,62 @@
         "season": "2022-23",
         "details": [  
             {
+                "scored": 1,
+                "conceded": 1,
+                "date": "24/05/23",
+                "opposition": "Livingston",
+                "venue": "Away",
+                "video": null,
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Sean Goos",
+                        "card": "yellow",
+                        "mins": "57"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "3"
+                    }
+                ],
+                "notes": "Crazy goalkeeping bordering on assault."
+            },
+            {
+                "scored": 1,
+                "conceded": 0,
+                "date": "20/05/23",
+                "opposition": "Ross County",
+                "venue": "Home",
+                "video": null,
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Blair Spittal",
+                        "card": "yellow",
+                        "mins": "84"
+                    },
+                    {
+                        "player": "Jack Aitchison",
+                        "card": "yellow",
+                        "mins": "79"
+                    },
+                    {
+                        "player": "Dan Casey",
+                        "card": "yellow",
+                        "mins": "57"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Kevin Van Veen (pen)",
+                        "mins": "90+9"
+                    }
+                ],
+                "notes": "Great penalty from KVV - but refereeing nearly ruined a scrappy game."
+            },
+            {
                 "scored": 2,
                 "conceded": 0,
                 "date": "13/05/23",
