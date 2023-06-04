@@ -2499,6 +2499,18 @@ adjust-sourcemap-loader@^4.0.0:
     loader-utils "^2.0.0"
     regex-parser "^2.2.11"
 
+ag-charts-community@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/ag-charts-community/-/ag-charts-community-7.3.0.tgz#575284d2ed248fc725fc6b3029c7eae9872cec39"
+  integrity sha512-118U6YsCMia6iZHaN06zT19rr2SYa92WB73pMVCKQlp2H3c19uKQ6Y6DfKG/nIfNUzFXZLHBwKIdZXsMWJdZww==
+
+ag-charts-react@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/ag-charts-react/-/ag-charts-react-7.3.0.tgz#4b19a3ffbbec89ca308ed6e214825a0e3ff6c09a"
+  integrity sha512-DR8l8IQbRJeutTslqJ8muwsMPdFyJAn/rq17NhQYZ9F4wx0suIAgaUG/We8KEO94qASLX/nhKuvbI/d7M4kJRw==
+  dependencies:
+    prop-types "^15.6.2"
+
 agent-base@6:
   version "6.0.2"
   resolved "https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz"
@@ -7837,7 +7849,7 @@ prompts@^2.0.1, prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.8.1:
+prop-types@^15.6.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
