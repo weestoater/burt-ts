@@ -10,15 +10,17 @@ export default function ShowGameCardHeader(props: any) {
 
   return (
     <div className="card-header text-center">
-      <small className="float-start">{_date}</small>
-      <span className="scores">
+      <div className="matchdate float-start">
+        <small>{_date}</small>
+      </div>
+      <div className="scores">
         <ShowScores venue={_venue} scored={_scored} conceded={_conceded} />
-      </span>
-      <span className="float-end">
+      </div>
+      <div className="matchresult float-end">
         {_venue}
         <br />
         <WinLoseDraw scored={_scored} conceded={_conceded} />
-      </span>
+      </div>
     </div>
   );
 }

@@ -6,13 +6,21 @@ export default function WinLoseDraw(props: any) {
 
   if (_scored > _conceded) {
     return (
-      <b className="text-success bg-white p-1 border border-success">Win</b>
+      <div className="wld-box">
+        <b className="text-success bg-white border border-success wld">Win</b>
+      </div>
     );
   } else if (_scored < _conceded) {
     return (
-      <b className="text-danger bg-white  p-1 border border-danger">Lost</b>
+      <div className="wld-box">
+        <b className="text-danger bg-white border border-danger wld">Lost</b>
+      </div>
     );
   } else {
-    return <b className="text-info bg-white  p-1 border border-info">Draw</b>;
+    return (
+      <div className="wld-box">
+        <b className="text-info bg-white border border-info wld">Draw</b>
+      </div>
+    );
   }
 }
