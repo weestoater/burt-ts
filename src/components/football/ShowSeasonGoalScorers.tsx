@@ -14,21 +14,32 @@ export default function ShowSeasonGoalScorers(props: any) {
     autoSize: true,
     series: [
       {
-        type: "column",
-        yKey: "goals",
-        xKey: "player",
-        stacked: false,
+        type: "pie",
+        angleKey: "goals",
+        calloutLabelKey: "player",
+        strokeWidth: 5,
+        strokeOpacity: 0.5,
+        sectorLabelKey: "goals",
+        sectorLabel: {
+          color: "white",
+          fontSize: 18,
+          fontWeight: "bold",
+        },
+        innerRadiusOffset: -70,
+        innerCircle: {
+          fill: "#ececec",
+        },
       },
     ],
     padding: {
-      top: 50,
-      right: 50,
-      bottom: 50,
-      left: 50,
+      top: 0,
+      right: 10,
+      bottom: 0,
+      left: 10,
     },
     legend: {
       position: "bottom",
-      spacing: 15,
+      spacing: 25,
     },
     theme: {},
   };

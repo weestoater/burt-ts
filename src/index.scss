@@ -13,6 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: whitesmoke;
 }
 :focus-visible {
   outline: 2px solid #bada55;
@@ -24,17 +25,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.matchdate, .matchresult {
+  margin: 1rem 0 0;
+}
 small {
-  font-size: .9rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .scores {
-  font-size: 2rem;
-  line-height: 2.5rem;
-  border: 1px solid #ddd;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
   background: white;
-  padding: .25rem .5rem;
+  border: 1px solid #ddd;
   border-radius: .5rem;
+  display: inline-block;
+  margin: .5rem auto;
+  padding: .75rem 0;
+  width: 7rem;
   b {
     color: maroon; 
     background: orange;
@@ -47,6 +54,11 @@ ul.no-bullets,
   list-style-type: none;
   margin-left: 0;
   padding-left: 0.25rem;
+}
+.card {
+  box-shadow: 0 0 .35rem #888;
+  background: white;
+  margin-bottom: 1.5rem !important;
 }
 .cards {
   display: inline-block;
@@ -62,7 +74,22 @@ ul.no-bullets,
 
 .goal-scorers {
   width: 100%;
-  height: 70vh;
+  height: 75vh;
+  background: white;
   border: 1px solid #ccc;
-  box-shadow: 0 .25rem .5rem #bbb;
+  border-radius: .75rem;
+  box-shadow: 0 0 .35rem #888;
+  padding: 2rem;
+}
+
+//--  Win Lose or Draw
+.wld-box {
+  clear: both;
+  margin: .5rem 0 0 !important;
+
+  .wld {
+    border-radius: .5rem;
+    padding: .25rem .75rem;
+    box-shadow: 0 0 .35rem #888;
+  }
 }
