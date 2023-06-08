@@ -29,6 +29,17 @@ export default function ShowSeasonGoalScorers(props: any) {
         innerCircle: {
           fill: "#ececec",
         },
+        listeners: {
+          nodeClick: (event: any) => {
+            var datum = event.datum;
+            window.alert(
+              datum[event.calloutLabelKey] +
+                " has scored " +
+                datum[event.angleKey] +
+                " goals"
+            );
+          },
+        },
       },
     ],
     padding: {
