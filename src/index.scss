@@ -59,6 +59,14 @@ ul.no-bullets,
   box-shadow: 0 0 .35rem #888;
   background: white;
   margin-bottom: 1.5rem !important;
+
+  .card-header {
+    background: #dfdfdf;
+
+    i.bi {
+      margin-right: 1rem;
+    }
+  }
 }
 .cards {
   display: inline-block;
@@ -96,4 +104,38 @@ ul.no-bullets,
     padding: .25rem .75rem;
     box-shadow: 0 0 .35rem #888;
   }
+}
+
+//--  react users
+.user {
+  margin: 0 0 2rem;
+  padding: 1rem 1rem .25rem;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: .5rem;
+
+  img.picture {
+    float: left;
+    border: .5rem solid white;
+    border-radius: .5rem;
+    box-shadow: 0 0 .75rem #ddd;
+    margin: 0 1rem 1rem 0;
+  }
+
+  .address, .contact {
+    font-size: .9rem;
+  }
+  .contact {
+    clear: both;
+  }
+}
+
+.code-sample {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background: #101b33;
+  color: #bada55;
+  padding: .5rem 1rem .25rem;
+  margin: 0 0 1rem;
 }

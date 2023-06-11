@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import getApi from '../../adapters/commonApi';
-import Spinner from '../global/Spinner';
+import Spinner from '../general/Spinner';
 import UserItem from './UserItem';
 
 export default function RandomUsersPost() {
@@ -17,7 +17,7 @@ export default function RandomUsersPost() {
             <div className="card">
                 <div className="card-header">
                     <i className="bi bi-filetype-jsx" />
-                    <span className="pl-4">Random Users API</span>
+                    Random Users API
                 </div>
                 <div className="card-body users">
                 {users.results ? (
