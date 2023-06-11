@@ -1,7 +1,6 @@
 import React from "react";
 
 function UserItem(props: any) {
-
   const user = props;
 
   return (
@@ -21,16 +20,20 @@ function UserItem(props: any) {
           <br />
           {user.item.location.postcode}
         </address>
-        <p className="contact">
-          <i className="bi bi-phone" aria-hidden="true" />{" "}
-          <a href={`tel:${user.item.cell}`}>{user.item.cell}</a>
-          <br />
-          <i className="bi bi-telephone" aria-hidden="true" />{" "}
-          <a href={`tel:${user.item.phone}`}>{user.item.phone}</a>
-          <br />
-          <i className="bi bi-envelope" aria-hidden="true" />{" "}
-          <a href={`mailto:${user.item.email}`}>{user.item.email}</a>
-        </p>
+        <div className="contact">
+          <p>
+            <i className="bi bi-phone" aria-hidden="true" />{" "}
+            <a href={`tel:${user.item.cell}`}>{user.item.cell}</a>
+          </p>
+          <p>
+            <i className="bi bi-telephone" aria-hidden="true" />{" "}
+            <a href={`tel:${user.item.phone}`}>{user.item.phone}</a>
+          </p>
+          <p>
+            <i className="bi bi-envelope" aria-hidden="true" />{" "}
+            <a href={`mailto:${user.item.email}`}>{user.item.email}</a>
+          </p>
+        </div>
       </div>
     </>
   );

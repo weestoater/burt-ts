@@ -16,6 +16,7 @@ export function LessonsLearned() {
               className="img-fluid float-end img-thumbnail mb-4"
               alt="Lessons Learned"
             />
+            <h1 className="visually-hidden">Lessons Learned - 2019</h1>
 
             <p>
               Over the last few sprints I’ve been allocated what <b>should</b>{" "}
