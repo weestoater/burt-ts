@@ -46,12 +46,11 @@ export default function Header(props: HeaderProps) {
               Football
             </a>
           </li>
-          {/* 
           <li className="nav-item">
             <a className="nav-link" href="/react">
               React
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>

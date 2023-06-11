@@ -6,7 +6,7 @@ export default function ReactHooksPost() {
       <div className="card">
         <div className="card-header">
           <i className="bi bi-filetype-jsx" />
-          <span className="pl-4">hooks</span>
+          hooks
         </div>
         <div className="card-body">
           <p>
