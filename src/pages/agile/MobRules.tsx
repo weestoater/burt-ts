@@ -7,12 +7,11 @@ export default function MobRules() {
       <div className="col-sm-10 mb-4">
         <div className="card">
           <div className="card-header">
-            <h1>
-              <i className="bi bi-people me-3" /> Mob Rules
-            </h1>
+            <i className="bi bi-people me-3" /> Mob Rules
           </div>
 
           <div className="card-body">
+            <h1 className="visually-hidden">Mob rules</h1>
             <img
               src="/assets/mob-programming.jpg"
               className="img-fluid float-end img-thumbnail mb-4"

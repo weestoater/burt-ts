@@ -4,7 +4,7 @@ export default function AboutContent() {
   return (
     <div className="card mb-4">
       <div className="card-header">
-        <i className="bi bi-wrench-adjustable-circle" /> About burtware
+        <i className="bi bi-wrench-adjustable-circle" /> who is burtware ?
       </div>
       <div className="card-body">
         <p>
