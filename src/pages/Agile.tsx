@@ -10,9 +10,7 @@ export default function Agile() {
       <div className="col-sm-10 mb-4">
         <div className="card">
           <div className="card-header">
-            <h1>
-              <i className="bi bi-kanban me-3" /> Agile
-            </h1>
+            <i className="bi bi-kanban me-3" /> Agile
           </div>
           <div className="card-body">
             <img
