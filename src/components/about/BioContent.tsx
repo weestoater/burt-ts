@@ -14,18 +14,19 @@ export default function BioContent() {
           outside the fine city.
         </p>
         <p>
-          I'm a father of two 'lovely children' and a husband to my long
-          suffering wife. We have a brilliant dog called Buster and we love him
-          to bits.
+          I'm a father of two amazing kids and a husband to my <b>very</b> long
+          suffering wife. We have an adorable dog called Buster and he is the
+          absolutely best boy - loved to bits.
         </p>
         <p className="text-center">
           <img className="img-thumbnail" src={BusterPic} alt="" />
         </p>
         <p>
           When not working or ferrying my kids to one of their many clubs, I
-          like to tinker with this website, listen to rubbish music and watch
-          weird and wonderful films. I occassionaly make it along to see
-          Motherwell FC too.
+          like to tinker with code / websites; listen to rubbish music; watch
+          weird and wonderful stuff on various streaming services. I
+          occassionaly make it along to see Motherwell FC too and have been know
+          to strum a tune on the guitar once in a blue moon.
         </p>
       </div>
     </div>
