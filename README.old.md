@@ -1,2 +1,0 @@
-# burt-ts
-burt-ts
