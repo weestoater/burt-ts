@@ -9,10 +9,19 @@
     a {
         color: #444;
         text-decoration: none;
+        
 
-        &:hover,
-        &:focus {
-            color: #f90;
+        &:hover, &:focus {
+            color: $amber;
+            background: $claret;
+        }
+        &.active {
+            background: $chuck;
+            &:hover, &:focus {
+                background: $barbie;
+                color: white;
+            }
+
         }
     }
 

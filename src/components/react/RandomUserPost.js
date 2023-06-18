@@ -13,7 +13,7 @@ export default function RandomUsersPost() {
       }, []);
 
     return (
-        <div className="col-lg-4 col-md-6 mb-4">
+        <div className="col-md-4 col-sm-6 mb-4">
             <div className="card">
                 <div className="card-header">
                     <i className="bi bi-filetype-jsx" />
