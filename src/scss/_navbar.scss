@@ -1,15 +1,17 @@
 .navbar {
     box-shadow: 0 2px 8px #ddd;
-    max-height: 2.5rem;
-
+    max-height: 2.75rem;
+    
     @media (max-width: 960px) {
         max-height: 5rem;
     }
-
+    
     a {
+        background: whitesmoke;
         color: #444;
         text-decoration: none;
-
+        border-radius: .5rem;
+        border: 2px solid whitesmoke;
 
         &:hover, &:focus {
             color: $amber;
@@ -21,7 +23,6 @@
                 background: $barbie;
                 color: white;
             }
-
         }
     }
 
@@ -47,19 +48,35 @@
         position: relative;
         left: 48%;
         max-width: 50% !important;
-        border: 1px solid #888;
-        border-top: none;
-        border-radius: 0;
-        box-shadow: 0 0 1rem #888;
-        margin: 0;
+        margin: -.5rem 0 0;
         padding: 0;
-        z-index: 100;
-        background: whitesmoke;
+        z-index: 1000;
         text-align: center;
-
         a {
-            border-top: 1px solid #888;
             padding: 1rem;
+            border: 2px solid $claret;
+            box-shadow: 0 0 1rem #888;
+            margin-bottom: .5rem;
+
+            &:hover,
+                &:focus {
+                    color: $amber;
+                    background: $claret;
+                }
+            
+                &.active {
+                    background: $chuck;
+            
+                    &:hover,
+                    &:focus {
+                        background: $barbie;
+                        color: white;
+                    }
+                }
+        }
+        @media (max-width: 960px) {
+            right:0;
+            max-width: 100% important;    
         }
     }
 }

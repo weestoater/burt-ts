@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
       <Header site="burtware.com" />
       <div className="container mt-4">
-        <main>
+        <main id="main">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/a11y" element={<A11y />} />

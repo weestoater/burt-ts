@@ -9,6 +9,9 @@ export default function Header(props: HeaderProps) {
       <div className="navbar-brand">
         <img src="assets/burt.png" className="logo" alt="burt logo" />
         <a href="/">{props.site}</a>
+        <a href="#main" className="visually-hidden-focusable">
+          Skip nav
+        </a>
       </div>
       <button
         className="navbar-toggler"
