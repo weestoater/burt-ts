@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <div className="row">
         <div className="col-sm-4">
-          <h2 className="visually-hidden">Thoughts</h2>
+          <h2>Thoughts</h2>
           <div className="card mb-4">
             <div className="card-header">
               <i className="bi bi-wrench-adjustable-circle" /> Ethos
