@@ -1,20 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { AgChartsReact } from "ag-charts-react";
 
 export default function ShowSeasonGoalScorers(props: any) {
-  const [goals, setGoals] = useState(0);
-  const [player, setPlayer] = useState("");
-
-  // function filterItems(_goals: number, _player: string) {
-  //   setGoals(_goals);
-  //   setPlayer(_player);
-
-  //   if (goals !== 0 && player !== "") {
-  //     //  console.log("Goals -> " + _goals + " | Player -> " + _player);
-  //     document.getElementById("modalBtn")?.click();
-  //   }
-  // }
+  // const [goals, setGoals] = useState(0);
+  // const [player, setPlayer] = useState("");
 
   const _goalscorers: any = props.goalscorers;
 
@@ -70,7 +60,7 @@ export default function ShowSeasonGoalScorers(props: any) {
         {_goalscorers !== null && <AgChartsReact options={_options} />}
       </div>
 
-      <button
+      {/* <button
         id="modalBtn"
         type="button"
         className="btn btn-primary"
@@ -78,9 +68,9 @@ export default function ShowSeasonGoalScorers(props: any) {
         data-bs-target="#playerModal"
       >
         .
-      </button>
+      </button> */}
 
-      <div
+      {/* <div
         className="modal fade"
         id="playerModal"
         data-bs-backdrop="static"
@@ -111,7 +101,7 @@ export default function ShowSeasonGoalScorers(props: any) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

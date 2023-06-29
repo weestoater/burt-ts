@@ -1,12 +1,21 @@
 import React from "react";
+import vscodeImg from "../../assets/vs-code.png";
 
 export default function AboutContent() {
   return (
     <div className="card mb-4">
       <div className="card-header">
-        <i className="bi bi-wrench-adjustable-circle" /> what is burtware.com ?
+        <i className="bi bi-wrench-adjustable-circle" />
+        what is burtware.com ?
       </div>
       <div className="card-body">
+        <p>
+          <img
+            src={vscodeImg}
+            alt="screenshot of VS Code editor with this page of code on view"
+            className="img-thumbnail"
+          />
+        </p>
         <p>
           burtware is the nickname I've used for my personal 'playgrounds'
           online since 1999, when I first cut my teeth in <code>html</code>{" "}
