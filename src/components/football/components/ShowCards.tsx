@@ -9,7 +9,7 @@ export default function ShowCards(props: any) {
         {_cards.map((card: any, index: number) => {
           return (
             <li key={index}>
-              <div className={`cards ${card.card}`}></div> {card.mins}mins'
+              <div className={`cards ${card.card}`}></div> {card.mins} mins
               &middot; {card.player}
             </li>
           );
