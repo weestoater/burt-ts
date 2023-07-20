@@ -1,5 +1,78 @@
 [
     {
+        "season": "2023-24",
+        "details": [            
+            {
+                "scored": 3,
+                "conceded": 3,
+                "date": "18/07/23",
+                "opposition": "Queen of the South",
+                "venue": "Away",
+                "video": null,
+                "league": "Scottish League Cup",
+                "cards": [
+                    {
+                        "player": "Ricki Lamie",
+                        "card": "red",
+                        "mins": "90+1"
+                    },
+                    {
+                        "player": "Conor Wilkinson",
+                        "card": "yellow",
+                        "mins": "88"
+                    },
+                    {
+                        "player": "Ricki Lamie",
+                        "card": "yellow",
+                        "mins": "84"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "75"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "mins": "56"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "40"
+                    }
+                ],
+                "notes": "Win 5/4 on penalties - some hairy tackles flying in. Good penalty save for win."
+            },
+            {
+                "scored": 2,
+                "conceded": 0,
+                "date": "15/07/23",
+                "opposition": "Elgin City",
+                "venue": "Away",
+                "video": null,
+                "league": "Scottish League Cup",
+                "cards": [
+                    {
+                        "player": "Lennon Miller",
+                        "card": "yellow",
+                        "mins": "68"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Lennon Miller",
+                        "mins": "25"
+                    },
+                    {
+                        "player": "Jonathan Obika",
+                        "mins": "76"
+                    }
+                ],
+                "notes": "Great performance."
+            }
+        ]
+    },
+    {
         "season": "2022-23",
         "details": [  
             {
