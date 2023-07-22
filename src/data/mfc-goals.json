@@ -2,15 +2,15 @@
         "season": "2023-24",
         "details": [
             {
+                "player": "Jonathan Obika",
+                "goals": 2
+            },
+            {
                 "player": "Blair Spittal",
                 "goals": 2
             },
             {
                 "player": "Lennon Miller",
-                "goals": 1
-            },
-            {
-                "player": "Jonathan Obika",
                 "goals": 1
             },
             {

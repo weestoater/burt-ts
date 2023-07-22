@@ -3,6 +3,29 @@
         "season": "2023-24",
         "details": [            
             {
+                "scored": 1,
+                "conceded": 0,
+                "date": "22/07/23",
+                "opposition": "Queen's Park",
+                "venue": "Home",
+                "video": null,
+                "league": "Scottish League Cup",
+                "cards": [
+                    {
+                        "player": "Stephen O'Donnell",
+                        "card": "yellow",
+                        "mins": "72"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Jonathan Obika",
+                        "mins": "29"
+                    }
+                ],
+                "notes": "Scrappy first 20 mins, but settled down after goal."
+            },
+            {
                 "scored": 3,
                 "conceded": 3,
                 "date": "18/07/23",
