@@ -9,7 +9,7 @@ export default function ShowGoals(props: any) {
         {_goals.map((goal: any, index: number) => {
           return (
             <li key={index}>
-              <b>{goal.player}</b> @ {goal.mins} mins
+              <b>{goal.player}</b>: {goal.mins} mins
             </li>
           );
         })}
