@@ -208,6 +208,12 @@ ul.no-bullets,
   background-color: rgba(0, 0, 0, 0.04);
   border-radius: .5rem .5rem 0 0;
 }
+.tabs__tab:focus{
+  color: rgba(0, 0, 0, 0.8);
+  background-color: $amber;
+  border-radius: .5rem .5rem 0 0;
+  border: 1px solid $claret;
+}
 
 .tabs__tab-active {
   color: white;

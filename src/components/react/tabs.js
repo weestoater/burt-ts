@@ -6,7 +6,7 @@ function Tabs({ children }) {
   const handleActiveTab = useCallback(label => setActiveTab(label), [])
 
   const tabs = children.map(child => (
-    <button
+    <button tabIndex={"0"}
       onClick={e => {
         e.preventDefault();
         handleActiveTab(child.props.label);
