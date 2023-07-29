@@ -11,6 +11,7 @@ export default function ReactPage() {
         <div className="col-sm-12">
           <h1>React</h1>
         </div>
+
         <NextThingsPost />
         <ReactHooksPost />
         <RandomUsersPost />
