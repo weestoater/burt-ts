@@ -4,7 +4,7 @@ import NextJSLogo from "../../assets/nextjs-logo.png";
 
 export default function NextThingsPost() {
   return (
-    <div className="col-md-4 col-sm-6 mb-4">
+    <div className="col-md-6 col-sm-6 mb-4">
       <div className="card">
         <div className="card-header">
           <i className="bi bi-binoculars" />
