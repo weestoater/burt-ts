@@ -1,17 +1,15 @@
 .navbar {
     box-shadow: 0 2px 8px #ddd;
-    max-height: 2.75rem;
+    height: 2.75rem;
     
-    @media (max-width: 960px) {
-        max-height: 5rem;
+    @media (max-width: 991px) {
+        height: 5.5rem;
     }
     
     a {
-        background: whitesmoke;
+        background: transparent;
         color: #444;
         text-decoration: none;
-        border-radius: .5rem;
-        border: 2px solid whitesmoke;
 
         &:hover, &:focus {
             color: $amber;
@@ -45,18 +43,21 @@
     }
 
     .navbar-collapse.show {
-        position: relative;
-        left: 48%;
-        max-width: 50% !important;
-        margin: -.5rem 0 0;
-        padding: 0;
+        position: absolute;
+        top: 5.75rem;
+        left: 0;
+        width: 12rem !important;
+        margin: 0;
+        padding: 1rem;
+        height: 100vh;
         z-index: 1000;
         text-align: center;
+        border: 1px solid  #444;
+        box-shadow: 0 0 1rem #888;
+        background: white;
         a {
-            padding: 1rem;
-            border: 2px solid $claret;
-            box-shadow: 0 0 1rem #888;
-            margin-bottom: .5rem;
+            margin-bottom: 1.5rem;
+            border: 2px dashed #ddd;
 
             &:hover,
                 &:focus {
@@ -73,10 +74,6 @@
                         color: white;
                     }
                 }
-        }
-        @media (max-width: 960px) {
-            right:0;
-            max-width: 100% important;    
         }
     }
 }
