@@ -1,8 +1,48 @@
 [
     {
         "season": "2023-24",
-        "details": [            
+        "details": [
             {
+                "scored": 3,
+                "conceded": 0,
+                "date": "29/07/23",
+                "opposition": "East Fife",
+                "venue": "Home",
+                "video": null,
+                "league": "Scottish League Cup",
+                "cards": [
+                    {
+                        "player": "Bevis Mugabi",
+                        "card": "yellow",
+                        "mins": "71"
+                    },
+                    {
+                        "player": "Conor Wilkinson",
+                        "card": "yellow",
+                        "mins": "62"
+                    },
+                    {
+                        "player": "Paul McGinn",
+                        "card": "yellow",
+                        "mins": "32"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Callum Slattery",
+                        "mins": "66"
+                    },
+                    {
+                        "player": "Conor Wilkinson",
+                        "mins": "36"
+                    },
+                    {
+                        "player": "Lennon Miller",
+                        "mins": "32"
+                    }
+                ],
+                "notes": "Another great result - good goals, team effort and clean sheet.  All is 'Well!!"
+            },{
                 "scored": 1,
                 "conceded": 0,
                 "date": "22/07/23",
