@@ -14,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: whitesmoke;
+  background: #e4e4e4;
 }
 :focus-visible {
   outline: 2px solid $chuck;
@@ -113,6 +113,7 @@ ul.no-bullets,
   border-radius: .75rem;
   box-shadow: 0 0 .35rem #888;
   padding: 2rem;
+  margin-bottom: 1.2rem;
 }
 
 //--  modal button for football chart
@@ -181,14 +182,12 @@ ul.no-bullets,
 .tabs__box {
   margin: 0 0 1.25rem;
 }
-
 .tabs__box:after {
   content: "";
-  margin: -.25rem 0 0;
+  margin: -2px 0 0;
   display: block;
-  border-bottom: 1px solid $claret;
+  border-bottom: 2px solid #ccc;
 }
-
 .tabs__tab {
   text-decoration: none;
   display: inline-block;
@@ -202,7 +201,6 @@ ul.no-bullets,
   margin: 0 .25rem 0 0;
   cursor: pointer;
 }
-
 .tabs__tab:hover {
   color: rgba(0, 0, 0, 0.8);
   background: rgba(0, 0, 0, 0.04);
@@ -212,23 +210,30 @@ ul.no-bullets,
   color: rgba(0, 0, 0, 0.8);
   background: white;
   border-radius: .5rem .5rem 0 0;
-  border: 1px solid white;
+  border: 2px solid #ccc;
+  border-bottom: none;
   outline: 2px solid $chuck;
   margin-top: 1px;
 }
-
 .tabs__tab-active {
   color: $claret;
   background: #fefefe;
   border-radius: .5rem .5rem 0 0;
-  box-shadow: 0 -1px 3px #888;
-  // border: 1px solid #eee;
+  border: 2px solid #ccc;
+  border-bottom: none;
 }
-
 .tabs__tab-active:after {
   content: "";
   display: block;
   padding-top: 1rem;
   margin-bottom: -1rem;
   border-bottom: 2px solid $amber;
+}
+.tabcontent {
+  background: white;
+  border: 2px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 1rem 1rem;
+  margin: -1.2rem 0 2rem;
+  padding: 1rem;
 }

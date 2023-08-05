@@ -9,7 +9,7 @@ export default function ShowTabs(props: any) {
   const goals: any = props.goals;
 
   return (
-    <>
+    <div className="tabcontent">
       <div className="row">
         <div className="col-sm-6 pt-2">
           {matches.map((game: any, index: number) => {
@@ -42,6 +42,6 @@ export default function ShowTabs(props: any) {
           <a href="#top">Back to top</a>
         </div>
       </div>
-    </>
+    </div>
   );
 }
