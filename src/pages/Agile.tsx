@@ -7,7 +7,7 @@ export default function Agile() {
       <div className="col-sm-12">
         <h1 className="visually-hidden">Agile</h1>
       </div>
-      <div className="col-sm-10 mb-4">
+      <div className="col-lg-9 col-sm-12 mb-4">
         <div className="card">
           <div className="card-header">
             <i className="bi bi-kanban me-3" /> Agile
@@ -77,7 +77,7 @@ export default function Agile() {
           </div>
         </div>
       </div>
-      <div className="col-sm-2">
+      <div className="col-lg-3 col-sm-12 mb-4">
         <AgileNav />
       </div>
     </div>

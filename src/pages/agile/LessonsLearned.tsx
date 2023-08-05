@@ -4,7 +4,7 @@ import { AgileNav } from "../../components/general/AgileNav";
 export function LessonsLearned() {
   return (
     <div className="row">
-      <div className="col-sm-10 mb-4">
+      <div className="col-lg-9 col-sm-12 mb-4">
         <div className="card">
           <div className="card-header">
             <i className="bi bi-clipboard-check me-3" /> Lessons Learned - 2019
@@ -64,7 +64,7 @@ export function LessonsLearned() {
           </div>
         </div>
       </div>
-      <div className="col-sm-2">
+      <div className="col-lg-3 col-sm-12 mb-4">
         <AgileNav />
       </div>
     </div>
