@@ -3,6 +3,39 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 1,
+                "conceded": 1,
+                "date": "05/08/23",
+                "opposition": "Dundee",
+                "venue": "Away",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Nathan McGinley",
+                        "card": "yellow",
+                        "mins": "79"
+                    },
+                    {
+                        "player": "Pape Souare",
+                        "card": "yellow",
+                        "mins": "72"
+                    },
+                    {
+                        "player": "Paul McGinn",
+                        "card": "yellow",
+                        "mins": "32"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Theo Bair",
+                        "mins": "45"
+                    }
+                ],
+                "notes": "Good first half, but let the win slip away."
+            },
+            {
                 "scored": 3,
                 "conceded": 0,
                 "date": "29/07/23",
