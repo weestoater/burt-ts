@@ -5,7 +5,7 @@ interface HeaderProps {
 
 export default function Header(props: HeaderProps) {
   return (
-    <nav className="navbar navbar-expand-lg bg-light navbar-light">
+    <nav className="navbar navbar-expand-lg bg-light navbar-light topnav">
       <div className="navbar-brand">
         <img src="assets/burt.png" className="logo" alt="burt logo" />
         <a href="/">{props.site}</a>
