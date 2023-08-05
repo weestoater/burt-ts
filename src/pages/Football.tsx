@@ -8,7 +8,7 @@ import { Tabs, Tab } from "../components/react/tabs";
 export default function Football() {
   return (
     <>
-      <h1>Motherwell FC</h1>
+      <h1 data-testid="pagetitle">Motherwell FC</h1>
 
       <Tabs>
         {seasons.map((season, key) => {

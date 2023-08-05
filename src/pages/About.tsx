@@ -7,7 +7,7 @@ export default function About() {
     <>
       <div className="row">
         <div className="col-sm-12">
-          <h1>About</h1>
+          <h1 data-testid="pagetitle">About</h1>
         </div>
         <div className="col-sm-6">
           <AboutContent />
