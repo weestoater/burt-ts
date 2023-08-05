@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div
+    class="row"
+  >
+    <div
+      class="col-sm-12"
+    >
+      <h1
+        data-testid="pagetitle"
+      >
+        About
+      </h1>
+    </div>
+    <div
+      class="col-sm-6"
+    >
+      <div
+        class="card mb-4"
+      >
+        <div
+          class="card-header"
+        >
+          <i
+            class="bi bi-wrench-adjustable-circle"
+          />
+          what is burtware.com ?
+        </div>
+        <div
+          class="card-body"
+        >
+          <p>
+            <img
+              alt="screenshot of VS Code editor with this page of code on view"
+              class="img-thumbnail"
+              src="vs-code.png"
+            />
+          </p>
+          <p>
+            burtware is the nickname I've used for my personal 'playgrounds' online since 1999, when I first cut my teeth in 
+            <code>
+              html
+            </code>
+             
+            & 
+            <code>
+              design
+            </code>
+            . Since then I've gone through a number of different efforts.
+          </p>
+          <ul>
+            <li>
+              A hand rolled CMS on php
+            </li>
+            <li>
+              Numerous versions of WordPress
+            </li>
+            <li>
+              An umbraco site - didn't last long
+            </li>
+            <li>
+              A few Angular / AngularJS versions
+            </li>
+            <li>
+              A couple of React sites
+            </li>
+          </ul>
+          <p>
+            This current itteration is 
+            <code>
+              ReactJS
+            </code>
+            , 
+            <code>
+              SASS
+            </code>
+             and hosted on 
+            <code>
+              AWS
+            </code>
+            . It is a site for me to play with and learn more about 
+            <code>
+              ReactJS
+            </code>
+             and 
+            <code>
+              AWS
+            </code>
+            , as I use both technologies in my day job, as well as Angular; Node; Cypress and multiple CSS frameworks.
+          </p>
+          <p>
+            I also want to use it to trial different experiments and implement the fabulous React Testing Library based on the amazing
+             
+            <a
+              href="http://www.testingjavascript.com"
+              rel="noreferrer"
+              target="_blank"
+            >
+              testing javascript
+            </a>
+             
+            course from 
+            <b>
+              Kent C. Dodds
+            </b>
+            . I work very heavily in Accessibility and I would like to flex some testing muscles too.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-sm-6"
+    >
+      <div
+        class="card mb-4"
+      >
+        <div
+          class="card-header"
+        >
+          <i
+            class="bi bi-wrench-adjustable-circle"
+          />
+           who is burtware ?
+        </div>
+        <div
+          class="card-body"
+        >
+          <img
+            alt="avatar of burtware aka Ian Burrett"
+            class="float-end img-thumbnail ms-3 mb-3"
+            src="burt.png"
+          />
+          <p>
+            I am Ian Burrett, a Scottish Lead UI Engineer / Web Developer, working in Glasgow, UK and living just outside the fine city.
+          </p>
+          <p>
+            I'm a father of two amazing kids and a husband to my 
+            <b>
+              very
+            </b>
+             long suffering wife. We have an adorable dog called Buster and he is the absolutely best boy ever - spoilt and loved to bits.
+          </p>
+          <p
+            class="text-center"
+          >
+            <img
+              alt=""
+              class="img-thumbnail"
+              src="buster.jpg"
+            />
+          </p>
+          <p>
+            When not working or ferrying my kids to one of their many clubs, I like to tinker with code / websites; listen to 'rubbish' music; watch weird and wonderful stuff on various streaming services. I occassionaly make it along to see Motherwell FC too and have been know to strum a tune on the guitar once in a blue moon.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

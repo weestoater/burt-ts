@@ -19,3 +19,8 @@ test("renders music videos heading", () => {
   const headerText = screen.getByText(/music videos/i);
   expect(headerText).toBeInTheDocument();
 });
+
+test("should match snapshot", () => {
+  const { container } = render(<App />);
+  expect(container).toMatchSnapshot();
+});

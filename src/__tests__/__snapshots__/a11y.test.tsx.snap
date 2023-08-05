@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div
+    class="row"
+  >
+    <div
+      class="col-sm-12"
+    >
+      <h1
+        data-testid="pagetitle"
+      >
+        Accessibility 
+      </h1>
+    </div>
+    <div
+      class="col-lg-4 col-md-6"
+    >
+      <div
+        class="card mb-4"
+      >
+        <div
+          class="card-header"
+        >
+          <i
+            class="bi bi-heart-pulse"
+          />
+           A11y & me ♿
+        </div>
+        <div
+          class="card-body"
+        >
+          <div
+            class="float-end text-info ps-2 pb-1"
+          >
+            <i
+              class="bi bi-universal-access-circle fs-1"
+            />
+          </div>
+          <p>
+            I 
+            <strong>
+              really
+            </strong>
+             care about Accessibility (a11y) online and have done for over 20 years now.
+          </p>
+          <p>
+            With a move to a different team in Sep '21, I've switched direction as a developer from being a delivery focused engineer, to working with teams as a SME 
+            <small>
+              (subject matter expert)
+            </small>
+             on UI development and more importantly Web Standards & a11y.
+          </p>
+          <p>
+            I'm now working alongside a team of designers servicing their needs for developer input / advice but also educating and supporting the products the designers work to.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-lg-4 col-md-6"
+    >
+      <div
+        class="card mb-4"
+      >
+        <div
+          class="card-header"
+        >
+          <i
+            class="bi bi-award"
+          />
+           A11y & promotion ♿
+        </div>
+        <div
+          class="card-body"
+        >
+          <div
+            class="float-end text-info ps-2 pb-1"
+          >
+            <i
+              class="bi bi-universal-access-circle fs-1"
+            />
+          </div>
+          <p>
+            I am incredibly lucky to work for a company who support and encourage my passion for A11y.  I was promoted to Vice President for the work I've been doing in this area and I am now even 
+            <b>
+              more
+            </b>
+             enthusiastic to prove how important it is and spread my net wider in the firm.
+          </p>
+          <p>
+            I love engaging with teams and helping them discover the range of tools available and the steps they need to take to reach and keep A11y compliance. Often there are one or two developers who rise to the challenge and drive their team. This is the best result for everyone - as they can then carry the torch and keep a11y issues to a minimum.
+          </p>
+          <p>
+            I was recently told by a fresh University graduate that A11y isn't even mentioned during a 
+            <b>
+              4 year
+            </b>
+             Computer Science degree - I am absolutely shocked to hear this as legislation has been in place for over 20+ years. With this in mind I am looking to become more involved in our Communities of Practise and POWERUP events internally to spread the good word and more importantly, offer education and advice to young or inexperienced developers.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-lg-4 col-md-6"
+    >
+      <div
+        class="card mb-4"
+      >
+        <div
+          class="card-header"
+        >
+          <i
+            class="bi bi-tools"
+          />
+           Axe plugin ♿
+        </div>
+        <div
+          class="card-body"
+        >
+          <div
+            class="float-end text-info ps-2 pb-1"
+          >
+            <i
+              class="bi bi-universal-access-circle fs-1"
+            />
+          </div>
+          <p>
+            I believe in clean easy to read code, especially in my 
+            <code>
+              html
+            </code>
+            . As part of my day job I help teams building web applications to make sure they are accessible and I always start off by getting their developers to install the 
+            <a
+              href="https://www.deque.com/axe/devtools/"
+            >
+              Axe Tools
+            </a>
+             for Chrome.
+          </p>
+          <p>
+             This simple tool can give a great insight into issues teams are facing on the journey to a11y compliance.  I especially like the fact that there are the four bandings:
+          </p>
+          <ol>
+            <li>
+              Critial
+            </li>
+            <li>
+              Serious
+            </li>
+            <li>
+              Moderage
+            </li>
+            <li>
+              Minor
+            </li>
+          </ol>
+          <p>
+            The ability to drill down on individual items and 
+            <b>
+              highlight
+            </b>
+             any offending code is brilliant and gets across the issues a lot better than any text book ever could.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

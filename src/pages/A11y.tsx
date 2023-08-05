@@ -7,7 +7,7 @@ export default function A11y() {
   return (
     <div className="row">
       <div className="col-sm-12">
-        <h1>Accessibility </h1>
+        <h1 data-testid="pagetitle">Accessibility </h1>
       </div>
       <A11yContent />
       <A11ySME />

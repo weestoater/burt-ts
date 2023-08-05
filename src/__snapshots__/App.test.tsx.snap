@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-lg bg-light navbar-light"
+  >
+    <div
+      class="navbar-brand"
+    >
+      <img
+        alt="burt logo"
+        class="logo"
+        src="assets/burt.png"
+      />
+      <a
+        href="/"
+      >
+        burtware.com
+      </a>
+      <a
+        class="visually-hidden-focusable"
+        href="#main"
+      >
+        Skip nav
+      </a>
+    </div>
+    <button
+      aria-controls="topNavBar"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      class="navbar-toggler"
+      data-bs-target="#topNavBar"
+      data-bs-toggle="collapse"
+      data-target="#topNavBar"
+      data-toggle="collapse"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="collapse navbar-collapse"
+      id="topNavBar"
+    >
+      <ul
+        class="navbar-nav me-auto mb-2 mb-lg-0"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/a11y"
+          >
+            A11y
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/agile"
+          >
+            Agile
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/football"
+          >
+            Football
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/react"
+          >
+            React
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div
+    class="container mt-4"
+  >
+    <main
+      id="main"
+    >
+      <div
+        class="row mb-3"
+      >
+        <div
+          class="col"
+        >
+          <h1>
+            Welcome to 
+            <code>
+              burtware
+            </code>
+          </h1>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-4"
+        >
+          <h2>
+            Thoughts
+          </h2>
+          <div
+            class="card mb-4"
+          >
+            <div
+              class="card-header"
+            >
+              <i
+                class="bi bi-wrench-adjustable-circle"
+              />
+               Ethos
+            </div>
+            <div
+              class="card-body"
+            >
+              <p>
+                I started this space as an online area for me to experiment with ReactJS and data 'patterns' on AWS. I've not got any desire to add a database or other server-side mechanisms - instead I want to concentrate purely on the front end aspects of rendering
+                 
+                <code>
+                  JSON
+                </code>
+                 payloads.
+                 
+              </p>
+              <p>
+                There isn't any roadmap of what I will build, but I am iterating around the football details, using the Motherwell F.C. results as my data source. I am 'hand-rolling' the data into two
+                 
+                <code>
+                  .json
+                </code>
+                 files: mfc-goals & mfc-matches, then creating a number of components to render the results onto the page.
+              </p>
+            </div>
+          </div>
+          <div
+            class="card mb-4"
+          >
+            <div
+              class="card-header"
+            >
+              <i
+                class="bi bi-bug"
+              />
+               trial & error
+            </div>
+            <div
+              class="card-body"
+            >
+              <p>
+                Ideally I want to learn as much as possible in building this site, as I have the freedom to make as many mistakes as I like.
+              </p>
+              <p>
+                It's only a 
+                <code>
+                  git pull
+                </code>
+                 away from being removed or over-written, so I don't want to be precious.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-sm-4"
+        >
+          <h2>
+            Car Videos
+          </h2>
+          <figure>
+            <iframe
+              src="https://www.youtube.com/embed/i0Z1VKWf3RM"
+              title="YouTube video player 1"
+            />
+            <figcaption>
+              Range Rover Sport vs spillway
+            </figcaption>
+          </figure>
+          <figure>
+            <iframe
+              src="https://www.youtube.com/embed/R6ygiL366TE"
+              title="YouTube video player 2"
+            />
+            <figcaption>
+              Guy Martin in highly modified Land Rover
+            </figcaption>
+          </figure>
+        </div>
+        <div
+          class="col-sm-4"
+        >
+          <h2>
+            Music Videos
+          </h2>
+          <figure>
+            <iframe
+              src="https://www.youtube.com/embed/iTKJ_itifQg"
+              title="YouTube video player 3"
+            />
+            <figcaption>
+              depeche Mode - I Feel You
+            </figcaption>
+          </figure>
+          <figure>
+            <iframe
+              src="https://www.youtube.com/embed/xy37XdAwH_A"
+              title="YouTube video player 4"
+            />
+            <figcaption>
+              Lindemann - Home Sweet Home (live)
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;
