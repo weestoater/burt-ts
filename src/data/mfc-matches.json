@@ -3,6 +3,32 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 2,
+                "conceded": 1,
+                "date": "13/08/23",
+                "opposition": "Hibernian",
+                "venue": "Home",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Blair Spittal",
+                        "card": "yellow",
+                        "mins": "90+6"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Mika Biereth",
+                        "mins": "85"
+                    },
+                    {
+                        "player": "Conor Wilkinson",
+                        "mins": "66"
+                    }
+                ],
+                "notes": "Not much between the sides in the first half. Great substitution lifted our side and gave us the edge."
+            },{
                 "scored": 1,
                 "conceded": 1,
                 "date": "05/08/23",
