@@ -5,6 +5,83 @@
             {
                 "scored": 2,
                 "conceded": 1,
+                "date": "26/08/23",
+                "opposition": "Kilmarnock",
+                "venue": "Home",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Paul McGinn",
+                        "card": "yellow",
+                        "mins": "90+2"
+                    },
+                    {
+                        "player": "Dan Casey",
+                        "card": "yellow",
+                        "mins": "71"
+                    },
+                    {
+                        "player": "Harry Paton",
+                        "card": "yellow",
+                        "mins": "66"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "57"
+                    },
+                    {
+                        "player": "Brodie Spencer",
+                        "card": "yellow",
+                        "mins": "52"
+                    },
+                    {
+                        "player": "Stephen O'Donnell",
+                        "card": "yellow",
+                        "mins": "43"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Harry Paton",
+                        "mins": "90+8"
+                    },
+                    {
+                        "player": "Dan Casey",
+                        "mins": "59"
+                    }
+                ],
+                "notes": "Very poor first half from 'Well, stood off far too much and didn't really get into any kind of rhythm.  But we came out much improved and together in the second half. Some great play, a penalty we could have done better on and an impressive finish from two non-strikers.  Great team spirit and an important 3 points at the start of the season."
+            },{
+                "scored": 0,
+                "conceded": 1,
+                "date": "19/08/23",
+                "opposition": "St. Mirren",
+                "venue": "Away",
+                "video": null,
+                "league": "Scottish League Cup",
+                "cards": [
+                    {
+                        "player": "Paul McGinn",
+                        "card": "yellow",
+                        "mins": "90+3"
+                    },{
+                        "player": "Bevis Mugabi",
+                        "card": "yellow",
+                        "mins": "89"
+                    },{
+                        "player": "Stephen O'Donnell",
+                        "card": "yellow",
+                        "mins": "53"
+                    }
+                ],
+                "goals": [],
+                "notes": "Painful defeat, not just in the sense of the match performance, but the injuries sustained too.  Some sore bodies coming off the pitch.  We'll dust ourselves down, look over the footage and try to grow, but that is the end of our cup run this season sadly."
+            }
+            ,{
+                "scored": 2,
+                "conceded": 1,
                 "date": "13/08/23",
                 "opposition": "Hibernian",
                 "venue": "Home",
