@@ -78,7 +78,7 @@ ul.no-bullets,
 .card {
   box-shadow: 0 0 .35rem #888;
   background: white;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 3rem !important;
 
   .card-header {
     background: #dfdfdf;
@@ -188,7 +188,7 @@ ul.no-bullets,
   content: "";
   margin: -2px 0 0;
   display: block;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 .tabs__tab {
   text-decoration: none;
@@ -201,6 +201,10 @@ ul.no-bullets,
   color: white;
   margin: 0 .25rem 0 0;
   cursor: pointer;
+
+  @media (max-width: 450px) {
+    padding: 1rem .5rem;
+  }
 }
 .tabs__tab:hover {
   color: $amber;
@@ -220,7 +224,7 @@ ul.no-bullets,
   color: $claret;
   background: #fefefe;
   border-radius: .5rem .5rem 0 0;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
   border-bottom: none;
   font-weight: 600;
 }
@@ -241,7 +245,9 @@ ul.no-bullets,
 }
 
 @media (max-width: 768px) {
-  main {
-    padding: 0 2rem 2rem;
-  }
+  main { padding: 0 2rem 2rem; }
+}
+
+@media (max-width: 500px) {
+  main { padding: 0 1rem 2rem; }
 }
