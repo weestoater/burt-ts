@@ -193,7 +193,7 @@ ul.no-bullets,
 .tabs__tab {
   text-decoration: none;
   display: inline-block;
-  padding: 1rem .75rem;
+  padding: 1rem;
   border: 1px solid transparent;
   outline: none;
   font-size: .9rem;
@@ -236,6 +236,12 @@ ul.no-bullets,
   border: 2px solid #ccc;
   border-top: none;
   border-radius: 0 0 1rem 1rem;
-  margin: -1.2rem 0 2rem;
+  margin: -1.25rem 0 2rem;
   padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 2rem 2rem;
+  }
 }
