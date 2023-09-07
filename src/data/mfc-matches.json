@@ -3,6 +3,44 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 1,
+                "conceded": 0,
+                "date": "3/09/23",
+                "opposition": "Hearts",
+                "venue": "Away",
+                "video": "https://youtu.be/pe9iscTmRO4?si=0ARNsG-wNkaJrnS0",
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Oli Shaw",
+                        "card": "yellow",
+                        "mins": "90"
+                    },
+                    {
+                        "player": "Dan Casey",
+                        "card": "yellow",
+                        "mins": "71"
+                    },
+                    {
+                        "player": "Paul McGinn",
+                        "card": "red",
+                        "mins": "69"
+                    },
+                    {
+                        "player": "Paul McGinn",
+                        "card": "yellow",
+                        "mins": "36"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Callum Slattery",
+                        "mins": "29"
+                    }
+                ],
+                "notes": "Again a poor first half from 'Well. Sublime pass from Blair Spittal to get the goal and some questionable refereeing with a soft first yellow and 50:50 second yellow for Paul McGinn."
+            },
+            {
                 "scored": 2,
                 "conceded": 1,
                 "date": "26/08/23",
