@@ -3,6 +3,18 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 0,
+                "conceded": 1,
+                "date": "16/09/23",
+                "opposition": "St. Mirren",
+                "venue": "Home",
+                "video": null,
+                "league": null,
+                "cards": null,
+                "goals": null,
+                "notes": "Motherwell peppered the St Mirren goal, hitting the bar late on with Goergie Gent's effort, but they couldn't find a way past Zach Hemming.  The St Mirren goal was against the run of play as Motherwell had started the second half stronger."
+            },
+            {
                 "scored": 1,
                 "conceded": 0,
                 "date": "3/09/23",
