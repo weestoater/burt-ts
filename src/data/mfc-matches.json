@@ -5,6 +5,29 @@
             {
                 "scored": 0,
                 "conceded": 1,
+                "date": "24/09/23",
+                "opposition": "Rangers",
+                "venue": "Away",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Lennon Miller",
+                        "card": "yellow",
+                        "mins": "58"
+                    },
+                    {
+                        "player": "Dan Casey",
+                        "card": "yellow",
+                        "mins": "32"
+                    }
+                ],
+                "goals": null,
+                "notes": "Motherwell started very brightly with Sam Lammers close to gifting a glaring chance before Callum Slattery found space and tried to bend one to the far corner. It was off target with Jack Butland exposed."
+            },
+            {
+                "scored": 0,
+                "conceded": 1,
                 "date": "16/09/23",
                 "opposition": "St. Mirren",
                 "venue": "Home",
