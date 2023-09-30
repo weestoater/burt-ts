@@ -3,6 +3,38 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 1,
+                "conceded": 2,
+                "date": "30/09/23",
+                "opposition": "Celtic",
+                "venue": "Home",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Brodie Spencer",
+                        "card": "yellow",
+                        "mins": "90"
+                    },
+                    {
+                        "player": "Stephen O'Donnell",
+                        "card": "yellow",
+                        "mins": "54"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "10"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "90+5"
+                    }
+                ],
+                "notes": "Motherwell were strong and deserved more out of this than they sadly got.  Refereeing decisions did not go there way, with Willy Collum doing some Fergie time, in order to let his favoured team Celtic get their winner.  Soft yellow card for Slattery and no yellow cards for any of the fouls that Motherwell had against them."
+            },{
                 "scored": 0,
                 "conceded": 1,
                 "date": "24/09/23",
