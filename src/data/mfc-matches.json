@@ -3,12 +3,81 @@
         "season": "2023-24",
         "details": [
             {
+                "scored": 0,
+                "conceded": 1,
+                "date": "04/11/23",
+                "opposition": "Kilmarnock",
+                "venue": "Away",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Dan Casey",
+                        "card": "yellow",
+                        "mins": "32"
+                    }
+                ],
+                "goals": null,
+                "notes": "A continued poor run of form. Something needs to be done to return to winning ways, just not sure what or who it is will deliver it."
+            },
+            {
+                "scored": 2,
+                "conceded": 4,
+                "date": "01/11/23",
+                "opposition": "Aberdeen",
+                "venue": "Home",
+                "video": "https://youtu.be/dmo8Bsyhbzs?si=OxTmyTleMnHY7fyy",
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Davor Zdravkovskir",
+                        "card": "yellow",
+                        "mins": "90+4"
+                    },
+                    {
+                        "player": "Liam Kelly",
+                        "card": "yellow",
+                        "mins": "69"
+                    },
+                    {
+                        "player": "Mika Biereth",
+                        "card": "yellow",
+                        "mins": "59"
+                    },
+                    {
+                        "player": "Brodie Spencer",
+                        "card": "yellow",
+                        "mins": "54"
+                    },
+                    {
+                        "player": "Conor Wilkinson",
+                        "card": "yellow",
+                        "mins": "52"
+                    },
+                    {
+                        "player": "Calum Butcher",
+                        "card": "yellow",
+                        "mins": "51"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Mika Biereth",
+                        "mins": "90+3"
+                    },{
+                        "player": "Theo Bair",
+                        "mins": "78"
+                    }
+                ],
+                "notes": "Far too late to join in the game. Poor goals to concede and woeful defending. Lots to learn if we want to move back up the table."
+            },
+            {
                 "scored": 3,
                 "conceded": 3,
                 "date": "28/10/23",
                 "opposition": "Ross County",
                 "venue": "Home",
-                "video": null,
+                "video": "https://youtu.be/JvRED3DcScI?si=XuCf1nRaNE-BCIvj",
                 "league": null,
                 "cards": [
                     {
