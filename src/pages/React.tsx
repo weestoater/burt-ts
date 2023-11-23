@@ -1,6 +1,5 @@
 import React from "react";
 
-import RandomUsersPost from "../components/react/RandomUserPost";
 import ReactHooksPost from "../components/react/ReactHooksPost";
 import NextThingsPost from "../components/react/NextThingsPost";
 
@@ -14,7 +13,6 @@ export default function ReactPage() {
 
         <NextThingsPost />
         <ReactHooksPost />
-        <RandomUsersPost />
       </div>
     </>
   );
