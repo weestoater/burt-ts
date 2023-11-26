@@ -4,10 +4,14 @@
     "details": [
         {
             "player": "Callum Slattery",
-            "goals": 4
+            "goals": 5
         },
         {
             "player": "Mika Biereth",
+            "goals": 4
+        },
+        {
+            "player": "Jonathan Obika",
             "goals": 3
         },
         {
@@ -24,10 +28,6 @@
         },
         {
             "player": "Lennon Miller",
-            "goals": 2
-        },
-        {
-            "player": "Jonathan Obika",
             "goals": 2
         },
         {

@@ -2,6 +2,73 @@
     {
         "season": "2023-24",
         "details": [
+             {
+                "scored": 1,
+                "conceded": 1,
+                "date": "25/11/23",
+                "opposition": "Celtic",
+                "venue": "Away",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Calum Butcher",
+                        "card": "yellow",
+                        "mins": "85"
+                    },
+                    {
+                        "player": "Bevis Mugabi",
+                        "card": "yellow",
+                        "mins": "64"
+                    },
+                    {
+                        "player": "Stephen O'Donnell",
+                        "card": "yellow",
+                        "mins": "41"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "14"
+                    }
+                ],
+                "goals": {
+                        "player": "Jonathan Obika",
+                        "mins": "90"
+                    },
+                "notes": "A tough point in strange circumstances. One of the penalties given was questionable at best. Player of the Match for Liam Kelly."
+            },
+            {
+                "scored": 2,
+                "conceded": 2,
+                "date": "07/11/23",
+                "opposition": "St. Johnstone",
+                "venue": "Away",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Harry Paton",
+                        "card": "yellow",
+                        "mins": "47"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "37"
+                    }
+                ],
+                "goals": [{
+                        "player": "Mika Biereth",
+                        "mins": "74"
+                    },
+                    {
+                        "player": "Shane Blaney",
+                        "mins": "68"
+                    }
+                ],
+                "notes": "Another poor performance. Good fight to get the draw, but should never have been in that position in the first place. VAR takes away early goal and heads go down."
+            },
             {
                 "scored": 0,
                 "conceded": 1,
