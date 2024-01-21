@@ -205,11 +205,13 @@ ul.no-bullets,
   text-decoration: none;
   display: inline-block;
   padding: 1rem;
-  border: 1px solid transparent;
+  border: 1px solid #eee;
+  border-bottom: none;
+  border-radius: .5rem .5rem 0 0;
   outline: none;
   font-size: .9rem;
   background: transparent;
-  color: white;
+  color: #444;
   margin: 0 .25rem 0 0;
   cursor: pointer;
 
@@ -235,7 +237,7 @@ ul.no-bullets,
   color: $claret;
   background: #fefefe;
   border-radius: .5rem .5rem 0 0;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-bottom: none;
   font-weight: 600;
 }
