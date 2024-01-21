@@ -24,7 +24,7 @@ export default function Header(props: HeaderProps) {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span> Menu
       </button>
 
       <div className="collapse navbar-collapse" id="topNavBar">

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400&display=swap');
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import '../node_modules/bootstrap-icons/font/bootstrap-icons';
@@ -10,12 +10,11 @@
 
 body {
   margin: 0;
-  font-family: 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
-  background: transparent url('./assets/bg/irongrip.png') top left repeat;
+  color: #444;
+  background: white; // transparent url('./assets/bg/irongrip.png') top left repeat;
 }
 :focus-visible {
   outline: 2px solid $chuck;
@@ -24,10 +23,22 @@ body {
   border-radius: 5px;
 }
 .topnav {
+  background: #cbcbcb !important; 
   border-bottom: 2px solid #b3b3b3;
   box-shadow: 0 0 .5rem #bbb;
+
+  .navbar-brand a {
+    text-shadow: 0 1px 2px #fff;
+  }
+
+  .navbar-toggler {
+    background: white;
+  }
 }
 
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 100;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
