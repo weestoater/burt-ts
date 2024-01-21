@@ -9,10 +9,10 @@ export default function About() {
         <div className="col-sm-12">
           <h1 data-testid="pagetitle">About</h1>
         </div>
-        <div className="col-sm-6">
+        <div className="col-lg-6 col-md-6 col-sm-12">
           <AboutContent />
         </div>
-        <div className="col-sm-6">
+        <div className="col-lg-6 col-md-6 col-sm-12">
           <BioContent />
         </div>
       </div>
