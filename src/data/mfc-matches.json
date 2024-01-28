@@ -2,7 +2,147 @@
     {
         "season": "2023-24",
         "details": [
-             {
+            {
+                "scored": 1,
+                "conceded": 1,
+                "date": "27/01/24",
+                "opposition": "St. Johnstone",
+                "venue": "Away",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Andrew Haliday",
+                        "card": "yellow",
+                        "mins": "45+5"
+                    },
+                    {
+                        "player": "Davor Zdravkovskir",
+                        "card": "yellow",
+                        "mins": "45"
+                    },
+                    {
+                        "player": "Liam Kelly",
+                        "card": "yellow",
+                        "mins": "4"
+                    }
+                ],
+                "goals":[ {
+                        "player": "Theo Bair",
+                        "mins": "29"
+                    }
+                ],
+                "notes": "A pinball disaster to concede the first goal. But the better of the two teams and the majority of the chances."
+            },
+            {
+                "scored": 3,
+                "conceded": 1,
+                "date": "20/01/24",
+                "opposition": "Alloa Athletic",
+                "venue": "Home",
+                "video": null,
+                "league": "Scottish Cup - 4th Round",
+                "cards": [],
+                "goals":[ 
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "88"
+                    },
+                    {
+                        "player": "Georgie Gent",
+                        "mins": "60"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "2"
+                    }
+                ],
+                "notes": "Good goals from us and a slack piece of defending to allow theirs. Safely through to the next round."
+            },
+            {
+                "scored": 2,
+                "conceded": 2,
+                "date": "02/01/24",
+                "opposition": "Hibernian",
+                "venue": "Away",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Harry Paton",
+                        "card": "yellow",
+                        "mins": "88"
+                    },
+                    {
+                        "player": "Georgie Gent",
+                        "card": "yellow",
+                        "mins": "48"
+                    },
+                    {
+                        "player": "Liam Kelly",
+                        "card": "yellow",
+                        "mins": "4"
+                    }
+                ],
+                "goals":[ 
+                    {
+                        "player": "Bevis Mugabi",
+                        "mins": "64"
+                    },
+                    {
+                        "player": "Theo Bair",
+                        "mins": "35"
+                    }
+                ],
+                "notes": "A fair result for a dismal game."
+            },    
+            {
+                "scored": 3,
+                "conceded": 1,
+                "date": "30/12/23",
+                "opposition": "Livingston",
+                "venue": "Home",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "84"
+                    },
+                    {
+                        "player": "Bevis Mugabi",
+                        "card": "yellow",
+                        "mins": "71"
+                    },
+                    {
+                        "player": "Brodie Spencer",
+                        "card": "yellow",
+                        "mins": "59"
+                    },
+                    {
+                        "player": "Mika Biereth",
+                        "card": "yellow",
+                        "mins": "45"
+                    }
+                ],
+                "goals":[ 
+                    {
+                        "player": "Theo Bair",
+                        "mins": "35"
+                    },
+                    {
+                        "player": "Theo Bair",
+                        "mins": "19"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "14"
+                    }
+                ],
+                "notes": "Good performance. Solid three points."
+            },
+            {
                 "scored": 1,
                 "conceded": 1,
                 "date": "25/11/23",

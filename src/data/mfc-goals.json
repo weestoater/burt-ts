@@ -3,29 +3,31 @@
     "season": "2023-24",
     "details": [
         {
+            "player": "Theo Bair",
+            "goals": 5
+        },
+        {
             "player": "Callum Slattery",
+            "goals": 5
+        },
+        {
+            "player": "Blair Spittal",
             "goals": 5
         },
         {
             "player": "Mika Biereth",
             "goals": 4
-        },
+        },        
         {
             "player": "Jonathan Obika",
             "goals": 3
         },
-        {
-            "player": "Blair Spittal",
-            "goals": 3
-        },
+        
         {
             "player": "Conor Wilkinson",
             "goals": 3
         },
-        {
-            "player": "Theo Bair",
-            "goals": 2
-        },
+        
         {
             "player": "Lennon Miller",
             "goals": 2
@@ -36,6 +38,10 @@
         },
         {
             "player": "Harry Paton",
+            "goals": 1
+        },
+        {
+            "player": "Bevis Mugabi",
             "goals": 1
         },
         {
