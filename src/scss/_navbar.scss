@@ -1,5 +1,5 @@
 .navbar {
-    box-shadow: 0 2px 8px #ddd;
+    box-shadow: 0 .25rem .5rem #ddd;
     height: 2.75rem;
     
     @media (max-width: 991px) {
@@ -30,7 +30,7 @@
 
     .navbar-brand {
         .logo {
-            margin: 0 1rem 0 .75rem;
+            margin: 2rem 1rem 0 .25rem;
             height: 4rem;
             width: 4rem;
             border: .25rem solid white;
