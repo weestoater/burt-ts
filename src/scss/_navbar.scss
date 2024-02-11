@@ -3,7 +3,7 @@
     height: 2.75rem;
     
     @media (max-width: 991px) {
-        height: 5.5rem;
+        height: 5rem;
     }
     
     a {
@@ -30,7 +30,7 @@
 
     .navbar-brand {
         .logo {
-            margin: 2rem 1rem 0 .25rem;
+            margin: -.25rem 1rem .5rem .5rem;
             height: 4rem;
             width: 4rem;
             border: .25rem solid white;
@@ -38,7 +38,7 @@
             box-shadow: 0 0 .5rem #444;
         }
         a {
-            margin-right: 4rem;
+            margin-right: .5rem;
         }
     }
 
