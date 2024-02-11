@@ -4,6 +4,119 @@
         "details": [
             {
                 "scored": 1,
+                "conceded": 2,
+                "date": "09/02/24",
+                "opposition": "Greenock Morton",
+                "venue": "Away",
+                "video": null,
+                "league": "Scottish Cup - 5th Round",
+                "cards": [
+                    {
+                        "player": "Calum Butcher",
+                        "card": "yellow",
+                        "mins": "90+2"
+                    },
+                    {
+                        "player": "Bevis Mugabi",
+                        "card": "yellow",
+                        "mins": "87"
+                    },
+                    {
+                        "player": "Liam Kelly",
+                        "card": "yellow",
+                        "mins": "4"
+                    }
+                ],
+                "goals":[ 
+                    {
+                        "player": "Jack Vale",
+                        "mins": "85"
+                    },
+                    {
+                        "player": "Harry Paton (OG)",
+                        "mins": "35"
+                    }
+                ],
+                "notes": "A pitiful performance from the Well.  Too late to everything, keeper had a mare of an evening and supporters got nothing for their efforts to raise the teams spirit."
+            },
+            {
+                "scored": 5,
+                "conceded": 0,
+                "date": "05/02/24",
+                "opposition": "Ross County",
+                "venue": "Home",
+                "video": "https://youtu.be/QElr7c96Ex8?si=sSwiZTzPcRPiDRnS",
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Lennon Miller",
+                        "card": "yellow",
+                        "mins": "80"
+                    },
+                    {
+                        "player": "Calum Butcher",
+                        "card": "yellow",
+                        "mins": "65"
+                    },
+                    {
+                        "player": "Liam Kelly",
+                        "card": "yellow",
+                        "mins": "4"
+                    }
+                ],
+                "goals":[ 
+                    {
+                        "player": "Jack Vale",
+                        "mins": "90+1"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "87"
+                    },
+                    {
+                        "player": "Theo Bair",
+                        "mins": "38"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "21"
+                    },
+                    {
+                        "player": "Andrew Haliday",
+                        "mins": "8"
+                    }
+                ],
+                "notes": "A brilliant performance from all in Claret and Amber tonight. Especially Blair Spittal.  Bossed the midfield, was at the heart of everything and scored two great goals, one a contender for GOTS."
+            },
+            {
+                "scored": 1,
+                "conceded": 1,
+                "date": "03/02/24",
+                "opposition": "Kilmarnock",
+                "venue": "Home",
+                "video": null,
+                "league": null,
+                "cards": [
+                    {
+                        "player": "Blair Spittal",
+                        "card": "yellow",
+                        "mins": "85"
+                    },
+                    {
+                        "player": "Calum Butcher",
+                        "card": "yellow",
+                        "mins": "80"
+                    }
+                ],
+                "goals":[ {
+                        "player": "Theo Bair",
+                        "mins": "38"
+                    }
+                ],
+                "notes": "A very bitty game, no real stand out performances. Dissappointed to see Motherwell 'fans' booing Kevin Van Veen.  Short memories for those bampots."
+            },
+            {
+                "scored": 1,
                 "conceded": 1,
                 "date": "27/01/24",
                 "opposition": "St. Johnstone",
