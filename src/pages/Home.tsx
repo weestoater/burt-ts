@@ -11,7 +11,7 @@ export default function Home() {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-4 col-md-4 col-sm-12">
+        <div className="col-lg-4 col-md-6 col-sm-12">
           <h2>Thoughts</h2>
           <div className="card mb-4">
             <div className="card-header">
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-12">
+        <div className="col-lg-4 col-md-6 col-sm-12">
           <h2>Car Videos</h2>
           <figure>
             <iframe
@@ -69,7 +69,7 @@ export default function Home() {
             <figcaption>Guy Martin in highly modified Land Rover</figcaption>
           </figure>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-12">
+        <div className="col-lg-4 col-md-6 col-sm-12">
           <h2>Music Videos</h2>
           <figure>
             <iframe

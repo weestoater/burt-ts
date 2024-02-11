@@ -4,16 +4,17 @@
     "details": [
         {
             "player": "Theo Bair",
-            "goals": 5
+            "goals": 7
         },
+        {
+            "player": "Blair Spittal",
+            "goals": 7
+        },        
         {
             "player": "Callum Slattery",
             "goals": 5
         },
-        {
-            "player": "Blair Spittal",
-            "goals": 5
-        },
+        
         {
             "player": "Mika Biereth",
             "goals": 4
@@ -33,7 +34,15 @@
             "goals": 2
         },
         {
+            "player": "Jack Vale",
+            "goals": 2
+        },
+        {
             "player": "Dan Casey",
+            "goals": 1
+        },
+        {
+            "player": "Andrew Haliday",
             "goals": 1
         },
         {
